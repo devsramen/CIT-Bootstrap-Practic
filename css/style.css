@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#carouselExampleControls {
+    margin-top: 30px;
+}
+.cardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.card{
+    width: 400px;
+}
+.one{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+.heading{
+    font-size: 50px;
+    line-height: 75px;
+    font-weight: 700;
+    color: blueviolet;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.paraHead{
+    text-align: center;
+    background-color: beige;
+    padding: 10px;
+    color: blueviolet;
+    text-transform: capitalize;
+}
+.cardsborder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.progress{
+    height: 30px;
+    margin-bottom: 20px;
+}
